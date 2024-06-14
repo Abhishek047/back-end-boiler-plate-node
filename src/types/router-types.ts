@@ -11,3 +11,12 @@ export type Routes = {
     prefix: string;
     routes: Route[];
 }
+//logger format
+declare module 'express-serve-static-core' {
+    interface Response {
+        __customBody__?: any;
+    }
+}
+export type LoggerFormat = {
+    time?: string,
+}

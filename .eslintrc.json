@@ -25,7 +25,9 @@
         "js": "never"
       }
     ],
-    "import/no-unresolved": "off"
+    "import/no-unresolved": "off",
+    "import/prefer-default-export": "off",
+    "no-unused-vars": "warn"
   },
   "settings": {
     "import/resolver": "./tsconfig.json"
