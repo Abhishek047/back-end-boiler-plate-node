@@ -1,5 +1,5 @@
-import express from "express";
-import { Middleware, Route } from "../types/router-types";
+import express from 'express';
+import { Middleware, Route } from '../types/router-types';
 
 // If want to add middleware while verifying
 export const createRouter = (routes: Route[], middlewares: Middleware[] = []) => {

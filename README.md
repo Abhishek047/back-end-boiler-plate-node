@@ -1,6 +1,6 @@
-# back-end-boiler-plate-node
+# Matrix Backend
 
-Title: React App Back-end with Node Boilerplate
+Title: Back-end with Node Boilerplate
 
 Description:
 This GitHub repository provides a boilerplate for building the back-end of a React application using Node.js. It serves as a starting point for developing robust and scalable server-side functionality to support your React front-end.

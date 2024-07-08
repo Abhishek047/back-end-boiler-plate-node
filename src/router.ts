@@ -1,4 +1,5 @@
-import { router as taskRoutes } from './tasks/routes';
-import { Routes } from './types/router-types';
+import { router as companyRoutes } from "./api/company/router";
+import { router as userRoutes } from "./api/users/router";
+import { Routes } from "./types/router-types";
 
-export const routers: Routes[] = [taskRoutes];
+export const routers: Routes[] = [companyRoutes, userRoutes];
